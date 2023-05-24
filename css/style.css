@@ -1,0 +1,66 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page for 4610
+hawn MacFarland, UMass Lowell Computer Science, shawn_macfarland@student.uml.edu
+Copyright (c) 2023 by Shawn MacFarland. All rights reserved. All uses, copies, excerpts
+are reaserved exclusively for the author. May not be reused in anyway or cited in anyway 
+without author's explicit permission.
+created by SM 2023-05-23 02:49PM
+Instructor: Professor Wenjin Zhou
+Sources of Help: Tim Truong TA instruction on documentation
+*/
+
+body {
+	font-size: 120%;
+	font-family: Times New Roman, Bookman, serif;
+}
+header {
+	font-size: 300%;
+	font-family: Times New Roman, Bookman, serif;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/* from https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+.blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.agenda {
+	font-weight: 	bold;
+	display: inline;
+}
+.caption {
+	font-size: 60%;
+	font-family: Times New Roman, Bookman, serif;
+}
