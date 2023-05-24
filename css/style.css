@@ -12,11 +12,11 @@ Sources of Help: Tim Truong TA instruction on documentation
 
 body {
 	font-size: 120%;
-	font-family: Times New Roman, Bookman, serif;
+	font-family: "Times New Roman", Bookman, serif;
 }
 header {
 	font-size: 300%;
-	font-family: Times New Roman, Bookman, serif;
+	font-family: "Times New Roman", Bookman, serif;
 	text-align: center;
 	margin-top: 20px;
 	margin-left: auto;
@@ -62,5 +62,5 @@ p {
 }
 .caption {
 	font-size: 60%;
-	font-family: Times New Roman, Bookman, serif;
+	font-family: "Times New Roman", Bookman, serif;
 }
